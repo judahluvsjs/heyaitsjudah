@@ -7,11 +7,11 @@
 }
 
 html {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 body {
-    background-image: -webkit-linear-gradient(65deg, #1a75ff 50%, #b3d1ff 50%);
+    background: url(./background.png);
     background-position: 0 1000px;
     font-family: 'Roboto', sans-serif;
 }
@@ -24,9 +24,41 @@ body {
     text-align: center;
 }
 h1 {
-    color: #1a75ff
+    color: aquamarine
     font-size 5rem;
     font-weight: 700;
     letter-spacing: 8px;
     margin-bottom: 2rem;
+}
+h2{
+    color: firebrick;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.image {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+  
+
+p {
+    font-size: 2rem;
+    color: #fff;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+}
+.btn {
+    display: inline-block;
+    padding: 2.7rem 7.5rem;
+    background: rgb(109, 21, 21);
+    font-size: 2rem;
+    text-decoration: none;
+    color: forestgreen;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #dadada;
 }
